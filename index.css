@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+.intro{
+    width: 80%;
+    margin: 90px auto;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.con-left{
+    flex-basis: 30%;
+    padding: 30px  50px;
+    background: #f7797d;
+}
+.con-center{
+    flex-basis: 30%;
+    padding: 30px;
+    background: #fbd786;
+}
+.con-right{
+    flex-basis: 30%;
+    padding: 30px 50px;
+    background: #c6ffdd;
+    color: navy;
+}
+h1{
+    margin-bottom:10px ;
+   text-align : center;
+}
+.intro p{
+    margin-bottom:40px ;
+    text-align: center;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+    
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fbd786;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: #fbd786;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 2px;
+
+    
+}
+button{
+    background-color: #c6ffdd;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 5px;
+    box-shadow: 0px 3px 10px;
+}
+.con-left h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.con-right h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    color: #f7797d;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: none;
+    text-align: center;
+    
+
+}
+img{
+    border-radius: 50px;
+}
