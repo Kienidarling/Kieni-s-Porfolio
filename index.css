@@ -103,12 +103,13 @@ a{
 img{
     border-radius: 50px;
 }
-@media only screen and (min-width: 300px) { 
-    .contact-box{
-        display: flex;
-        flex-direction: column;
-    }
+@media only screen and (min-width: 300px) {     .contact-box{
+    display: flex;
+    flex-direction:column;
 }
+}
+
+
 @media only screen and (min-width: 800px) { 
     .contact-box{
         display: flex;
